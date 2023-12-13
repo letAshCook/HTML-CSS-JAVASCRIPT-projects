@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="study.css">
+    <title>StudyRight</title>
+    
+</head>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <h1 class="logo"><a href="home.html">Study Right</a></h1>
+    </div>
+    <nav id="navbar">
+       <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href='lesson.html'>Lessons</a></li>
+          <li><a href='quiz.html'>Quiz</a></li>
+       </ul>
+    </nav>
+  </header>
+  <main id="quiz-imp">
+    <p id="abt-quiz">There are totally 10 MCQs, try to finish it in under 30mins</p>
+    <div class="container-97">
+      <div class="header-97">
+          <h2>Motivational Quote Generator</h2>
+      </div>
+      <div class="main-content-97">
+          <div class="text-area">
+              <span class="quote">
+                “We cannot solve problems with the kind of 
+                thinking we employed when we came up with them.” 
+              </span>
+          </div>
+          <div class="person">Albert Einstein</div>
+          
+          <div class="button-area">
+              <button id="new-quote">New Quote</button>
+          </div>
+      </div>
+   </div>
+   <div id="quiz">
+      <h1 id="big-quiz">Math Quiz</h1>
+      <div id="timer">Timer:<span id="countdown"></span></div>
+      <button id="start" onclick="startQuiz()">Start Quiz</button>
+      <form onsubmit="return false">
+        <div id="question"></div> 
+        <div id="options"></div>
+        <button id="submit" onclick="checkAnswer69()">Submit</button>
+      </form>
+      <div id="feedback"></div>
+      <button id="restart" onclick="location.reload()">Restart</button>
+   </div>
+    <div id="Scores">
+      <h2><u>How well you did you do?</u></h2>
+      <ol>
+        <li>0-2: NEED TO WORK HARD</li>
+        <li>3-5: KEEP TRYING</li>
+        <li>6-7: KEEP UP THE GOOD WORK</li>
+        <li>>=8: EXCELLENT</li>
+      </ol>
+    </div>
+  </main>
+  <script src="study.js"></script>
+</body>
+</html>

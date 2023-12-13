@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="study.css">
+    <title>StudyRight</title>
+    
+</head>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <h1 class="logo"><a href="home.html">Study Right</a></h1>
+    </div>
+    <nav id="navbar">
+       <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href='lesson.html'>Lessons</a></li>
+          <li><a href='quiz.html'>Quiz</a></li>
+       </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="content">
+    <h1 id="table"><i><b>Table Of Content</b></i></h1>
+        <ul>
+            <li><a href=#First-lesson>1.Addition</a></li>
+            <li><a href=#Second-lesson>2.Subtraction</a></li>
+            <li><a href=#Third-lesson>3.Multiplication</a></li>
+            <li><a href=#Fourth-lesson>4.Division</a></li>
+            <li><a href=#Final-lesson>5.Operator Precedence</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div id="First-lesson">
+        <h1>Introduction to Addition</h1>
+        <table>
+          <tr>
+            <td> <div class="vid-class"><iframe src="https://youtube.com/embed/Fe8u2I3vmHU" width="600px" height="400" allowfullscreen></iframe></div></td>
+            <td><div class="images"><img src="addition.jpg" alt="addition" width="600px" height="400"></div> </td>
+          </tr>
+        </table>
+        <div class="Excercises">
+            <h3><u>5 Excercises for Addition:</u></h3>
+            <span class="difficulty"><b>*</b></span>
+            <br>
+            <label for="answer">1: What is 2+3? </label><br>
+            <input type="text" id="answer1">
+            <br>
+            <button onclick="checkAnswer1()">Submit</button>
+            <p id="feedback1"></p>
+            <br>
+            <label for="answer">2: What is 3+5? </label><br>
+            <input type="text" id="answer2">
+            <br>
+            <button onclick="checkAnswer2()">Submit</button>
+            <p id="feedback2"></p>
+            <br>
+            <span class="difficulty"><b>**</b></span>
+            <br>
+            <label for="answer">3: What is 12+10? </label><br>
+            <input type="text" id="answer3">
+            <br>
+            <button onclick="checkAnswer3()">Submit</button>
+            <p id="feedback3"></p>
+            <br>
+            <label for="answer">4: What is 19+12? </label><br>
+            <input type="text" id="answer4">
+            <br>
+            <button onclick="checkAnswer4()">Submit</button>
+            <p id="feedback4"></p>
+            <br>
+            <span class="difficulty"><b>***</b></span>
+            <br>
+            <label for="answer">5: What is 2+5+7+9? </label><br>
+            <input type="text" id="answer5">
+            <br>
+            <button onclick="checkAnswer5()">Submit</button>
+            <p id="feedback5"></p>
+        </div>
+        <p>
+            If you have got 5 out of 5, Congratulations!<br>
+            You can now move to Subtraction!
+        </p>
+    </div>
+    <hr>
+    <div id="Second-lesson">
+      <h1>Introduction to Subtraction</h1>
+        <table>
+          <tr>
+            <td><div class="vid-class"><iframe src="https://youtube.com/embed/1bkv9zU3ptg" width="600px" height="400" allowfullscreen></iframe></div> </td>
+            <td><div class="images"><img src="subtraction.png" alt="subtraction" width="600px" height="400px"></div></td>
+          </tr>
+        </table>
+        <div class="Excercises">
+          <h3><u>5 Excercises for Subtraction:</u></h3>
+          <span class="difficulty"><b>*</b></span>
+          <br>
+          <label for="answer">1: What is 5-2?</label><br>
+          <input type="text" id="answer6">
+          <br>
+          <button onclick="checkAnswer6()">Submit</button>
+          <p id="feedback6"></p>
+          <br>
+          <label for="answer">2: What is 8-2?</label><br>
+          <input type="text" id="answer7">
+          <br>
+          <button onclick="checkAnswer7()">Submit</button>
+          <p id="feedback7"></p>
+          <br>
+          <span class="difficulty"><b>**</b></span>
+          <br>
+          <label for="answer">3: What is 20-10?</label><br>
+          <input type="text" id="answer8">
+          <br>
+          <button onclick="checkAnswer8()">Submit</button>
+          <p id="feedback8"></p>
+          <br>
+          <label for="answer">4: What is 40-38?</label><br>
+          <input type="text" id="answer9">
+          <br>
+          <button onclick="checkAnswer9()">Submit</button>
+          <p id="feedback9"></p>
+          <br>
+          <span class="difficulty"><b>***</b></span>
+          <br>
+          <label for="answer">5: What is 10-5+4?</label><br>
+          <input type="text" id="answer10">
+          <br>
+          <button onclick="checkAnswer10()">Submit</button>
+          <p id="feedback10"></p>
+        </div>
+        <p>
+          If you have got 5 out of 5, Congratulations!<br>
+          You can now move to Multiplication!
+        </p>  
+    </div>
+    <hr>
+    <div id="Third-lesson">
+      <h1>Introduction to Multiplication</h1>
+        <table>
+            <tr>
+              <td><div class="vid-class"><iframe src="https://youtube.com/embed/fZFwHpiAVE0" width="600px" height="400px" allowfullscreen ></iframe></div></td>
+              <td><img src="multiplication.jpg" alt="multiplication" width="600px" height="400px"></td>
+            </tr>
+        </table>
+          <div class="Excercises">
+            <h3><u>5 Excercises for Multiplication:</u></h3>
+            <span class="difficulty"><b>*</b></span>
+            <br>
+            <label for="answer">1: What is 2 x 2?</label><br>
+            <input type="text" id="answer11">
+            <br>
+            <button onclick="checkAnswer11()">Submit</button>
+            <p id="feedback11"></p>
+            <br>
+            <label for="answer">2: What is 3 x 4?</label><br>
+            <input type="text" id="answer12">
+            <br>
+            <button onclick="checkAnswer12()">Submit</button>
+            <p id="feedback12"></p>
+            <br>
+            <span class="difficulty"><b>**</b></span>
+            <br>
+            <label for="answer">3: What is 10 x 10?</label><br>
+            <input type="text" id="answer13">
+            <br>
+            <button onclick="checkAnswer13()">Submit</button>
+            <p id="feedback13"></p>
+            <br>
+            <label for="answer">4: What is 6 x 8?</label><br>
+            <input type="text" id="answer14">
+            <br>
+            <button onclick="checkAnswer14()">Submit</button>
+            <p id="feedback14"></p>
+            <br>
+            <span class="difficulty"><b>***</b></span>
+            <br>
+            <label for="answer">5: What is 10 + 4 x 9 ?</label><br>
+            <input type="text" id="answer15">
+            <br>
+            <button onclick="checkAnswer15()">Submit</button>
+            <p id="feedback15"></p>
+          </div>  
+          <p>
+            If you have got 5 out of 5, Congratulations!<br>
+            You can now move to Division!
+          </p>     
+    </div>
+    <hr>
+    <div id="Fourth-lesson">
+        <h1>Introduction to Division</h1>
+        <table>
+          <tr>
+            <td><div class="vid-class"><iframe src="https://youtube.com/embed/wbkHv9zcGhI" width="600px" height="400px" allowfullscreen></iframe></div></td>
+            <td><div class="images"><img src="division.png" alt="division" width="600px" height="400px"></div></td>
+          </tr>
+        </table>
+          <div class="Excercises">
+            <h3><u>5 Excercises for Division:</u></h3>
+            <span class="difficulty"><b>*</b></span>
+            <br>
+            <label for="answer">1: What is 4 / 2?</label><br>
+            <input type="text" id="answer16">
+            <br>
+            <button onclick="checkAnswer16()">Submit</button>
+            <p id="feedback16"></p>
+            <br>
+            <label for="answer">2: What is 12 / 6?</label><br>
+            <input type="text" id="answer17">
+            <br>
+            <button onclick="checkAnswer17()">Submit</button>
+            <p id="feedback17"></p>
+            <br>
+            <span class="difficulty"><b>**</b></span>
+            <br>
+            <label for="answer">3: What is 24 / 2?</label><br>
+            <input type="text" id="answer18">
+            <br>
+            <button onclick="checkAnswer18()">Submit</button>
+            <p id="feedback18"></p>
+            <br>
+            <label for="answer">4: What is 12 / 2?</label><br>
+            <input type="text" id="answer19">
+            <br>
+            <button onclick="checkAnswer19()">Submit</button>
+            <p id="feedback19"></p>
+            <br>
+            <span class="difficulty"><b>***</b></span>
+            <br>
+            <label for="answer">5: What is 10 / 2 x 9 ?</label><br>
+            <input type="text" id="answer20">
+            <br>
+            <button onclick="checkAnswer20()">Submit</button>
+            <p id="feedback20"></p>
+          </div>  
+          <p>
+            If you have got 5 out of 5, Congratulations!<br>
+            You can now move to Order of Operation!
+          </p>  
+    </div>
+    <hr>
+    <div id="Final-lesson">
+        <h1>Introduction to Operator Precedence</h1>
+        <table>
+          <tr>
+            <td><div class="vid-class"><iframe src="https://youtube.com/embed/ajPc3zHdd18" width="600px" height="400px" allowfullscreen></iframe></div></td>
+            <td><div class="images"><img src="operation.png" alt="precedence" width="600px" height="400px"></div></td>
+          </tr>
+        </table>
+        <div class="Excercises">
+          <h3><u>5 Excercises for Order Of Operation:</u></h3>
+          <span class="difficulty"><b>*</b></span>
+          <br>
+          <label for="answer">1: What is 4 + 2 - 1?</label><br>
+          <input type="text" id="answer21">
+          <br>
+          <button onclick="checkAnswer21()">Submit</button>
+          <p id="feedback21"></p>
+          <br>
+          <label for="answer">2: What is 5 + 5 - 10?</label><br>
+          <input type="text" id="answer22">
+          <br>
+          <button onclick="checkAnswer22()">Submit</button>
+          <p id="feedback22"></p>
+          <br>
+          <span class="difficulty"><b>**</b></span>
+          <br>
+          <label for="answer">3: What is 6 + 6 - 1 + 2?</label><br>
+          <input type="text" id="answer23">
+          <br>
+          <button onclick="checkAnswer23()">Submit</button>
+          <p id="feedback23"></p>
+          <br>
+          <label for="answer">4: What is 8 - 8 + 2 + 10?</label><br>
+          <input type="text" id="answer24">
+          <br>
+          <button onclick="checkAnswer24()">Submit</button>
+          <p id="feedback24"></p>
+          <br>
+          <span class="difficulty"><b>***</b></span>
+          <br>
+          <label for="answer">5: What is (10 + 10 - 5) / (2 + 1) ?</label><br>
+          <input type="text" id="answer25">
+          <br>
+          <button onclick="checkAnswer25()">Submit</button>
+          <p id="feedback25"></p>
+        </div>  
+        <p>
+          If you have got 5 out of 5, Congratulations!<br>
+          You can now take the final quiz!<br>
+          Remember this is not the end, there is still more, learning is a never-ending curve <br>
+          The more you work, the more you gain!
+        </p>  
+    </div>
+    <div class="Back">
+      <ul>
+        <li><a href="#navbar">Back to top</a></li>
+      </ul>
+    </div>
+  </main>
+  <script src="study.js"></script>
+</body>
+</html>
